@@ -1,0 +1,48 @@
+:root {
+  --primary-color: 219, 0, 219;
+  --primary-dark: 162, 0, 162;
+  --text-color: white;
+  --bg-color: black;
+}
+
+/* FONTS */
+@font-face {
+  font-family: 'antonio';
+  src: url(fonts/antonio-semi.ttf);
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'antonio';
+  src: url(fonts/antonio-bold.ttf);
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'cairo';
+  src: url(fonts/cairo-regular.ttf);
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'cairo';
+  src: url(fonts/cairo-semi.ttf);
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* GLOBAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: cairo, sans-serif;
+  color: var(--text-color);
+  background-color: grey;
+}
