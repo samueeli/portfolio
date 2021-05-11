@@ -44,5 +44,102 @@
 body {
   font-family: cairo, sans-serif;
   color: var(--text-color);
-  background-color: grey;
+  background-color: black;
 }
+
+.content-width{
+  max-width: 960px;
+}
+
+/* --------------HEADER--------------- */
+/* ----------------------------------- */
+header{
+  text-align: center;
+  text-align: -webkit-center;
+}
+
+/* NAV */
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-left, .nav-right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 1rem;
+}
+
+nav .logo{
+  height: 2rem;
+  width: auto;
+  margin-right: .5rem;
+}
+
+nav img{
+  height: 100%;
+  filter: drop-shadow(0 0 0px rgba(255, 255, 255, 1));
+  transition: .4s;
+}
+
+nav img:hover{
+  filter: drop-shadow(0 0 3px rgba(255, 255, 255, 1));
+}
+
+nav a{
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 900;
+}
+
+a.nav-active{
+  color: rgb(var(--primary-color));
+}
+
+.portfolio, .about{
+  position: relative;
+}
+
+.portfolio:before{
+  content: 'Portfolio';
+  position: absolute;
+  font-family: sans-serif;
+  font-weight: 900;
+  color: rgb(var(--primary-color));
+  width: 0;
+  overflow: hidden;
+  transition: 0.4s;
+}
+
+.portfolio:hover:before{
+  width: 100%;
+}
+
+.about:before{
+  content: 'About Me';
+  position: absolute;
+  font-family: sans-serif;
+  font-weight: 900;
+  color: rgb(var(--primary-color));
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  transition: 0.4s;
+}
+
+.about:hover:before{
+  width: 100%;
+}
+
+/* --------------INTRO--------------- */
+/* ----------------------------------- */
+
+
+/* --------------WORK--------------- */
+/* ----------------------------------- */
+
+
+/* --------------SKILLS--------------- */
+/* ----------------------------------- */
