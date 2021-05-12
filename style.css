@@ -64,6 +64,18 @@ body {
   font-size: 1.1em;
 }
 
+h2{
+  font-weight: 400;
+  font-size: 5rem;
+  margin: 20px;
+}
+
+h2::before{
+  content: ".";
+  font-family: serif;
+  color: rgb(var(--primary-color));
+}
+
 /* --------------HEADER--------------- */
 /* ----------------------------------- */
 header{
@@ -173,6 +185,7 @@ a.nav-active{
   background-image: url(/media/samuli-hero.jpg);
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
   opacity: .8;
 }
 
