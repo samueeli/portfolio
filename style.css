@@ -47,57 +47,58 @@ body {
   background-color: black;
 }
 
-.content-width{
+.content-width {
   max-width: 960px;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
-.flex-col{
+.flex-col {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.p-big{
+.p-big {
   font-weight: 600;
   font-size: 1.1em;
   line-height: 1.6rem;
 }
 
-.p-small{
+.p-small {
   line-height: 1.2rem;
-  margin: .5rem 0;
+  margin: 0.5rem 0;
 }
 
-h2{
+h2 {
   font-weight: 400;
   font-size: 5rem;
   margin: 20px;
   margin-bottom: 80px;
 }
 
-h2::before{
-  content: ".";
+h2::before {
+  content: '.';
   font-family: serif;
   color: rgb(var(--primary-color));
 }
 
-h3, h4 {
+h3,
+h4 {
   font-weight: 600;
 }
 
-h3{
+h3 {
   font-size: 1.3rem;
 }
 
-h4{
+h4 {
   text-transform: uppercase;
 }
 
 /* --------------HEADER--------------- */
 /* ----------------------------------- */
-header{
+header {
   position: relative;
   text-align: center;
   width: 100vw;
@@ -105,42 +106,42 @@ header{
 }
 
 /* NAV */
-.nav-container{
+.nav-container {
   width: 100%;
-  padding: 0 1.5rem;
 }
 
-nav{
+nav {
   display: flex;
   width: 100%;
   justify-content: space-between;
   z-index: 100;
 }
 
-.nav-left, .nav-right{
+.nav-left,
+.nav-right {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 1rem 0;
 }
 
-nav .logo{
+nav .logo {
   height: 2rem;
   width: auto;
-  margin-right: .5rem;
+  margin-right: 0.5rem;
 }
 
-nav img{
+nav img {
   height: 100%;
   filter: drop-shadow(0 0 0px rgba(255, 255, 255, 1));
-  transition: .4s ease;
+  transition: 0.4s ease;
 }
 
-nav img:hover{
+nav img:hover {
   filter: drop-shadow(0 0 1px rgba(255, 255, 255, 1));
 }
 
-nav a{
+nav a {
   text-decoration: none;
   color: white;
   font-family: sans-serif;
@@ -148,15 +149,16 @@ nav a{
   font-weight: 900;
 }
 
-a.nav-active{
+a.nav-active {
   color: rgb(var(--primary-color));
 }
 
-.portfolio, .about{
+.portfolio,
+.about {
   position: relative;
 }
 
-.portfolio:before{
+.portfolio:before {
   content: 'Portfolio';
   position: absolute;
   font-family: sans-serif;
@@ -167,11 +169,11 @@ a.nav-active{
   transition: 0.4s;
 }
 
-.portfolio:hover:before{
+.portfolio:hover:before {
   width: 100%;
 }
 
-.about:before{
+.about:before {
   content: 'About Me';
   position: absolute;
   font-family: sans-serif;
@@ -183,12 +185,12 @@ a.nav-active{
   transition: 0.4s;
 }
 
-.about:hover:before{
+.about:hover:before {
   width: 100%;
 }
 
 /* BG IMAGE */
-.bg-image{
+.bg-image {
   position: absolute;
   top: 0;
   height: 100vh;
@@ -197,7 +199,7 @@ a.nav-active{
   z-index: -1;
 }
 
-.bg-image .hero-image{
+.bg-image .hero-image {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -205,10 +207,10 @@ a.nav-active{
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  opacity: .8;
+  opacity: 0.8;
 }
 
-.bg-image .overlay{
+.bg-image .overlay {
   position: relative;
   top: 0;
   height: 100%;
@@ -217,7 +219,7 @@ a.nav-active{
 }
 
 /* HERO TEXT */
-.hero-text{
+.hero-text {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -228,16 +230,16 @@ a.nav-active{
   justify-content: center;
 }
 
-.hero-logo{
+.hero-logo {
   height: 5rem;
   margin: 2rem 0;
 }
 
-.hero-text img{
+.hero-text img {
   height: 100%;
 }
 
-.hero-text h1{
+.hero-text h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -245,17 +247,17 @@ a.nav-active{
   font-size: 3.2rem;
   font-weight: 400;
   letter-spacing: 5px;
-  margin: 0 .5rem;
+  margin: 0 0.5rem;
   filter: drop-shadow(0 0 3px rgba(255, 255, 255, 0.3));
 }
 
-.hero-text h1 span{
+.hero-text h1 span {
   font-size: 3rem;
   letter-spacing: normal;
 }
 
 /* FADE BOXES */
-.top-fader{
+.top-fader {
   position: absolute;
   top: 0;
   height: 15vh;
@@ -264,7 +266,7 @@ a.nav-active{
   z-index: -1;
 }
 
-.bottom-fader{
+.bottom-fader {
   position: absolute;
   bottom: 0;
   height: 20vh;
@@ -273,21 +275,21 @@ a.nav-active{
   z-index: -1;
 }
 
-header .arrow-down{
+header .arrow-down {
   position: absolute;
   bottom: 1rem;
 }
 
 /* --------------INTRO--------------- */
 /* ----------------------------------- */
-.portfolio-intro{
+.portfolio-intro {
   text-align: center;
   margin: 40px 0;
 }
 
 /* --------------WORK--------------- */
 /* ----------------------------------- */
-.work hr{
+.work hr {
   border: 1px solid rgb(var(--primary-color));
   border-radius: 50%;
   width: 50%;
@@ -295,25 +297,26 @@ header .arrow-down{
   margin: 80px 0;
 }
 
-.work-item{
+.work-item {
   display: grid;
+  width: 100%;
   grid-template-columns: 1fr 1fr;
 }
 
-.work-item-text{
- margin-right: 20px;
+.work-item-text {
+  margin-right: 20px;
 }
 
-.work-item-text a{
+.work-item-text p {
+  max-width: 350px;
+}
+
+.work-item-text a {
   text-transform: uppercase;
   font-family: antonio;
   font-weight: 600;
   color: rgb(var(--primary-color));
   text-decoration: none;
-}
-
-.work-item-image{
-
 }
 
 
