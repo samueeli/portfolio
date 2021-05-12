@@ -49,6 +49,8 @@ body {
 
 .content-width{
   max-width: 960px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 /* --------------HEADER--------------- */
@@ -66,7 +68,6 @@ nav{
   position: relative;
   display: flex;
   justify-content: space-between;
-  margin: 0 1.5rem;
   z-index: 100;
 }
 
@@ -223,6 +224,11 @@ a.nav-active{
   width: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0));
   z-index: -1;
+}
+
+header .arrow-down{
+  position: absolute;
+  bottom: 1rem;
 }
 
 
