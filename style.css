@@ -319,6 +319,82 @@ header .arrow-down {
   text-decoration: none;
 }
 
+.work-item-image {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.avara .image {
+  background: url(/media/work-avara.jpg);
+}
+.raivo .image {
+  background: url(/media/work-raivo.jpg);
+}
+.bob .image {
+  background: url(/media/work-bobtravels.jpg);
+}
+.sami .image {
+  background: url(/media/work-samiasp.jpg);
+}
+
+.work-item-image .image{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: top;
+  width: 40vw;
+  height: 25vw;
+  max-height: 250px;
+  max-width: 400px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(213, 213, 213, 0.3);
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.work-item-image .image:before{
+  content: '';
+  position: absolute;
+  background-color: rgba(77, 0, 77, 0.8);
+  width: 40vw;
+  height: 25vw;
+  max-height: 250px;
+  max-width: 400px;
+  opacity: 0;
+  transition: all .5s;
+  z-index: 1;
+}
+
+.work-item-image .image:hover:before{
+  opacity: 1;
+}
+
+.work-item-image .work-btn{ 
+  font-family: antonio;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: .15rem;
+  color: rgb(var(--primary-dark));
+  background-color: rgb(var(--primary-color));
+  padding: 10px 40px;
+  border-radius: 50px;
+  border: 4px solid rgb(var(--primary-color));
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  transition: all .3s;
+  z-index: 2;
+}
+
+.work-item-image .image:hover .work-btn{
+  opacity: 1;
+}
+
+.work-item-image .work-btn:hover{
+  border: 4px solid rgb(var(--primary-dark));
+}
 
 /* --------------SKILLS--------------- */
 /* ----------------------------------- */
