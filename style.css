@@ -44,7 +44,7 @@
 body {
   font-family: cairo, sans-serif;
   color: var(--text-color);
-  background-color: grey;
+  background-color: black;
 }
 
 .content-width{
@@ -62,18 +62,37 @@ body {
 .p-big{
   font-weight: 600;
   font-size: 1.1em;
+  line-height: 1.6rem;
+}
+
+.p-small{
+  line-height: 1.2rem;
+  margin: .5rem 0;
 }
 
 h2{
   font-weight: 400;
   font-size: 5rem;
   margin: 20px;
+  margin-bottom: 80px;
 }
 
 h2::before{
   content: ".";
   font-family: serif;
   color: rgb(var(--primary-color));
+}
+
+h3, h4 {
+  font-weight: 600;
+}
+
+h3{
+  font-size: 1.3rem;
+}
+
+h4{
+  text-transform: uppercase;
 }
 
 /* --------------HEADER--------------- */
@@ -268,6 +287,34 @@ header .arrow-down{
 
 /* --------------WORK--------------- */
 /* ----------------------------------- */
+.work hr{
+  border: 1px solid rgb(var(--primary-color));
+  border-radius: 50%;
+  width: 50%;
+  max-width: 400px;
+  margin: 80px 0;
+}
+
+.work-item{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.work-item-text{
+ margin-right: 20px;
+}
+
+.work-item-text a{
+  text-transform: uppercase;
+  font-family: antonio;
+  font-weight: 600;
+  color: rgb(var(--primary-color));
+  text-decoration: none;
+}
+
+.work-item-image{
+
+}
 
 
 /* --------------SKILLS--------------- */
