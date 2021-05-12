@@ -5,8 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta name="keywords" content="developer, designer, web developer, web designer, portfolio, samuli salminen, samuli">
-    <meta name="description" content="Hi I'm Sam, a web developer and designer based in Tampere Finland. I love beautiful designs and easy to use UI's backed with solid and clear codebase.">
+    <meta
+      name="keywords"
+      content="developer, designer, web developer, web designer, portfolio, samuli salminen, samuli"
+    />
+    <meta
+      name="description"
+      content="Hi I'm Sam, a web developer and designer based in Tampere Finland. I love beautiful designs and easy to use UI's backed with solid and clear codebase."
+    />
 
     <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
@@ -20,18 +26,19 @@
     <title>Samul Salminen | Portfolio</title>
   </head>
   <body>
-
     <!-- HEADER -->
-    <header>
-      <nav class="content-width">
-        <div class="nav-left">
-          <a href="#" class="logo"><img src="/media/sasa-logo-wh-dots.svg" alt="sasa-logo"></a>
-          <a href="#" class="nav-active portfolio">Portfolio</a>
-        </div>
-        <div class="nav-right">
-          <a href="/about.html" class="about">About Me</a>
-        </div>
-      </nav>
+    <header class="flex-col">
+      <div class="nav-container flex-col">
+        <nav class="content-width">
+          <div class="nav-left">
+            <a href="#" class="logo"><img src="/media/sasa-logo-wh-dots.svg" alt="sasa-logo" /></a>
+            <a href="#" class="nav-active portfolio">Portfolio</a>
+          </div>
+          <div class="nav-right">
+            <a href="/about.html" class="about">About Me</a>
+          </div>
+        </nav>
+      </div>
       <div class="bg-image">
         <div class="hero-image"></div>
         <div class="overlay"></div>
@@ -39,33 +46,34 @@
       <div class="hero-text">
         <h1>
           SAMULI SALMINEN
-          <span class="hero-logo"><img src="/media/sasa-logo-wh-dots.svg" alt="sasa-logo"></span>
+          <span class="hero-logo"><img src="/media/sasa-logo-wh-dots.svg" alt="sasa-logo" /></span>
           <span>Developer / Designer</span>
         </h1>
       </div>
       <div class="top-fader"></div>
       <div class="bottom-fader"></div>
-      <img src="/media/arrow-down.svg" alt="arrow-down" class="arrow-down">
+      <div class="arrow-down">
+        <img src="/media/arrow-down.svg" alt="arrow-down" />
+      </div>
     </header>
 
     <!-- INTRO -->
-    <p class="portfolio-intro">
-      
-    </p>
+    <div class="portfolio-intro flex-col">
+      <p class="content-width p-big">
+        Hi, Sam here! I'm a web developer / designer / musician from Tampere Finland. Welcome to my webpage. Please, take a
+        look around of some of the recent work I've been part of and enjoy your stay.
+      </p>
+    </div>
 
     <!-- WORK -->
-    <section class="work">
-
+    <section class="work flex-col">
+      <h2>Work</h2>
     </section>
 
     <!-- SKILLS -->
-    <section class="skills">
-
-    </section>
+    <section class="skills"></section>
 
     <!-- FOOTER -->
-    <footer>
-
-    </footer>
+    <footer></footer>
   </body>
 </html>
