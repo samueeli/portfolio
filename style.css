@@ -307,6 +307,8 @@ header .arrow-down {
   grid-template-columns: 1fr 1fr;
 }
 
+/* WORK TEXT */
+
 .work-item-text {
   margin-right: 20px;
 }
@@ -321,8 +323,14 @@ header .arrow-down {
   font-weight: 600;
   color: rgb(var(--primary-color));
   text-decoration: none;
+  transition: color .3s ease;
 }
 
+.work-item-text a:hover{
+  color: rgb(var(--primary-dark));
+}
+
+/* WORK IMAGES */
 .work-item-image {
   display: flex;
   justify-content: flex-end;
