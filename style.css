@@ -166,7 +166,7 @@ a.nav-active {
   color: rgb(var(--primary-color));
   width: 0;
   overflow: hidden;
-  transition: 0.4s;
+  transition: 0.5s;
 }
 
 .portfolio:hover:before {
@@ -182,7 +182,7 @@ a.nav-active {
   width: 0;
   overflow: hidden;
   white-space: nowrap;
-  transition: 0.4s;
+  transition: 0.5s;
 }
 
 .about:hover:before {
