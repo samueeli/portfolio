@@ -452,6 +452,7 @@ footer .top-fader, footer .bottom-fader{
   font-size: 1.8rem;
   letter-spacing: .1rem;
   line-height: 2rem;
+  text-shadow: 0 1px 4px rgba(91, 91, 91, 0.8);
 }
 
 footer .contact-btn{
