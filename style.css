@@ -89,7 +89,7 @@ h4 {
 }
 
 h3 {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 h4 {
@@ -289,6 +289,10 @@ header .arrow-down {
 
 /* --------------WORK--------------- */
 /* ----------------------------------- */
+.work{
+  margin-bottom: 80px;
+}
+
 .work hr {
   border: 1px solid rgb(var(--primary-color));
   border-radius: 50%;
@@ -349,7 +353,7 @@ header .arrow-down {
   max-height: 250px;
   max-width: 400px;
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(213, 213, 213, 0.3);
+  box-shadow: 0 2px 25px rgba(var(--primary-color), .5);
   text-decoration: none;
   overflow: hidden;
 }
@@ -398,3 +402,16 @@ header .arrow-down {
 
 /* --------------SKILLS--------------- */
 /* ----------------------------------- */
+
+
+/* --------------ANIMATIONS--------------- */
+/* ----------------------------------- */
+
+@keyframes pulse {
+  0%, 100%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.1);
+  }
+}
