@@ -425,6 +425,66 @@ header .arrow-down {
   color: var(--text-color);
 }
 
+/* --------------FOOTER--------------- */
+/* ----------------------------------- */
+footer{
+  position: relative;
+  justify-content: center;
+  background-color: rgb(var(--primary-color));
+  height: 300px;
+}
+
+footer .top-fader, footer .bottom-fader{
+  z-index: 1;
+  height: 60%;
+}
+
+.footer-text{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  z-index: 2;
+}
+
+.footer-text h3{
+  font-weight: 400;
+  font-size: 1.8rem;
+  letter-spacing: .1rem;
+  line-height: 2rem;
+}
+
+footer .contact-btn{
+  font-family: antonio;
+  font-weight: 700;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: .17rem;
+  text-decoration: none;
+  white-space: nowrap;
+  color: rgb(var(--primary-dark));
+  background-color: rgb(var(--primary-color));
+  padding: 12px 30px;
+  border-radius: 50px;
+  border: 4px solid rgb(var(--primary-color));
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  transition: all .3s;
+}
+
+footer .contact-btn:hover{
+  border: 4px solid rgb(var(--primary-dark));
+}
+
+/* --------------ANIMATIONS--------------- */
+/* ----------------------------------- */
+.copyright{
+  text-align: center;
+  font-size: .8rem;
+  color: rgb(125, 125, 125);
+  padding: 20px;
+}
+
+
 
 /* --------------ANIMATIONS--------------- */
 /* ----------------------------------- */
