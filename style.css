@@ -203,7 +203,7 @@ a.nav-active {
   position: absolute;
   height: 100%;
   width: 100%;
-  background-image: url(/media/samuli-hero.jpg);
+  background-image: url(media/samuli-hero.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -412,16 +412,16 @@ header .arrow-down {
 }
 
 .avara .image {
-  background: url(/media/work-avara-2.jpg);
+  background: url(media/work-avara-2.jpg);
 }
 .raivo .image {
-  background: url(/media/work-raivo-2.jpg);
+  background: url(media/work-raivo-2.jpg);
 }
 .bob .image {
-  background: url(/media/work-bobtravels-2.jpg);
+  background: url(media/work-bobtravels-2.jpg);
 }
 .sami .image {
-  background: url(/media/work-samiasp-2.jpg);
+  background: url(media/work-samiasp-2.jpg);
 }
 
 .work-item-image .image{
@@ -568,6 +568,7 @@ footer .contact-btn:hover{
   font-size: .8rem;
   color: rgb(125, 125, 125);
   padding: 20px;
+  background-color: black;
 }
 
 
