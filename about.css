@@ -1,0 +1,28 @@
+.video-bg{
+  overflow: hidden;
+}
+
+.video-bg video{
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  opacity: .3;
+}
+
+main{
+  position: relative;
+  padding-bottom: 20px;
+}
+
+main p{
+  line-height: 1.5rem;
+  margin: 10px 0;
+}
+
+.copyright.about{
+  background-color: black;
+}
