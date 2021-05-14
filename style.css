@@ -218,6 +218,90 @@ a.nav-active {
   background-color: rgba(255, 0, 255, 0.3);
 }
 
+/* STARS */
+.stars{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50%;
+  width: 100%;
+  z-index: -1;
+  opacity: .7;
+}
+
+.star1{
+  position: relative;
+  height: 2px;
+  width: 2px;
+  top: 20%;
+  left: 15%;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0 0 3px white;
+  animation: pulse 8s infinite;
+}
+
+.star2{
+  position: relative;
+  height: 1px;
+  width: 1px;
+  top: 90%;
+  left: 30%;
+  border-radius: 50%;
+  box-shadow: 0 0 3px white;
+  background-color: white;
+  animation: pulse 10s infinite;
+}
+
+.star3{
+  position: relative;
+  height: 1px;
+  width: 1px;
+  top: 30%;
+  left: 75%;
+  border-radius: 50%;
+  box-shadow: 0 0 3px white;
+  background-color: white;
+  animation: pulse 6s infinite;
+}
+
+.star4{
+  position: relative;
+  height: 2px;
+  width: 2px;
+  top: 30%;
+  left: 45%;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0 0 3px white;
+  animation: pulse 5s infinite;
+}
+
+.star5{
+  position: relative;
+  height: 2px;
+  width: 1px;
+  top: 65%;
+  left: 7%;
+  border-radius: 50%;
+  box-shadow: 0 0 3px white;
+  background-color: white;
+  animation: pulse 8s linear infinite;
+  opacity: .9;
+}
+
+.star6{
+  position: relative;
+  height: 2px;
+  width: 1px;
+  top: 80%;
+  left: 90%;
+  border-radius: 50%;
+  box-shadow: 0 0 3px white;
+  background-color: white;
+  animation: pulse 8s infinite;
+}
+
 /* HERO TEXT */
 .hero-text {
   position: absolute;
@@ -495,6 +579,6 @@ footer .contact-btn:hover{
     transform: scale(1);
   }
   50%{
-    transform: scale(1.1);
+    transform: scale(1.5);
   }
 }
