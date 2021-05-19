@@ -590,6 +590,11 @@ footer .contact-btn:hover {
 /* ----------------------------------- */
 
 @media screen and (max-width: 700px) {
+  /* HEADER */
+  .hero-text h1 {
+    transform: scale(0.9);
+  }
+
   /* WORK */
   .work-item {
     grid-template-columns: 1fr;
@@ -612,6 +617,13 @@ footer .contact-btn:hover {
     max-width: none;
     max-height: none;
   }
+
+  .work-item-image .image:before {
+    width: 60vw;
+    height: 40vw;
+    max-width: none;
+    max-height: none;
+  }
 }
 
 @media screen and (max-width: 550px) {
@@ -621,6 +633,11 @@ footer .contact-btn:hover {
   }
 
   .work-item-image .image {
+    width: 80vw;
+    height: 55vw;
+  }
+
+  .work-item-image .image:before {
     width: 80vw;
     height: 55vw;
   }
@@ -643,6 +660,11 @@ footer .contact-btn:hover {
 }
 
 @media screen and (max-width: 399px) {
+  .content-width {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
   /* SKILLS */
   .skills-item {
     width: 170px;
