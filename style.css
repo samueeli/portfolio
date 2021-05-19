@@ -660,11 +660,6 @@ footer .contact-btn:hover {
 }
 
 @media screen and (max-width: 399px) {
-  .content-width {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
   /* SKILLS */
   .skills-item {
     width: 170px;
