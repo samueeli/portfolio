@@ -26,9 +26,9 @@ main{
   padding-bottom: 20px;
 }
 
-main p{
+.story-text-container p{
   line-height: 1.5rem;
-  margin: 10px 0;
+  margin: 15px 0;
 }
 
 main .story-container{
