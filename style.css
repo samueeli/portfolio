@@ -335,6 +335,7 @@ a.nav-active {
   letter-spacing: 5px;
   margin: 0 0.5rem;
   filter: drop-shadow(0 0 3px rgba(255, 255, 255, 0.3));
+  max-width: 100%;
 }
 
 .hero-text h1 span {
